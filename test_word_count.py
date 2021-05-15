@@ -1,6 +1,12 @@
 import unittest
 from word_count import word_count
 
+"""
+Since the class name starts with the word test and the
+functions start with the word test these functions work
+in pytest and since the class extends unittest.TestCase
+the tests also work for the unittest module.
+"""
 class TestWordCount(unittest.TestCase):
 
     def test_empty(self):
